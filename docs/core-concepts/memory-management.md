@@ -7,8 +7,9 @@ slug: memory-management
 
 # Memory Management
 NativeScript allows JavaScript code to be called from native and vice versa. It does so by creating bridging counterparts for each instance which must be exposed to the "other world" (native or JavaScript). These let developers access and consume the native APIs from JavaScript by:
-	* implementing native interfaces or deriving from native classes in JavaScript
-	* creating/accessing native instances and calling into their methods from JavaScript.
+
+ * implementing native interfaces or deriving from native classes in JavaScript
+ * creating/accessing native instances and calling into their methods from JavaScript.
 
 In this article, we are explaining the life cycle of JavaScript and native instances and show some troublesome conditions which may arise out of the complications of having two garbage collected runtimes (Android) or a garbage collected runtime and reference counting (iOS)
 
